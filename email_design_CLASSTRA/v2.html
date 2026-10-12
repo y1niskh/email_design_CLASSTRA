@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="supported-color-schemes" content="dark light">
+<title>Confirmez votre adresse e-mail</title>
+</head>
+<body style="margin:0;padding:0;background-color:#0d0f1e;">
+
+<!-- Préheader (texte d'aperçu dans la boîte de réception) -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#0d0f1e;">
+  Un dernier clic pour finaliser votre inscription à Classtra.
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0d0f1e" style="background-color:#0d0f1e;">
+  <tr>
+    <td align="center" style="padding:32px 16px;">
+
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+
+        <!-- Logo -->
+        <tr>
+          <td align="left" style="padding:0 8px 24px 8px;font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;letter-spacing:0.5px;color:#d3d0f8;">
+            <span style="display:inline-block;color:#d3d0f8;background:#d3d0f8;background-image:linear-gradient(100deg,#ffffff 10%,#a5a0f5 90%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">CLASSTRA.</span>
+          </td>
+        </tr>
+
+        <!-- Carte -->
+        <tr>
+          <td bgcolor="#151832" style="background-color:#151832;border:1px solid #262a4d;border-radius:20px;padding:44px 40px;">
+
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td align="center" style="font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#a5a0f5;padding-bottom:16px;">
+                  Logiciel de gestion scolaire · Algérie
+                </td>
+              </tr>
+
+              <tr>
+                <td align="center" style="font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:34px;line-height:40px;font-weight:700;color:#f0f0fa;padding-bottom:20px;">
+                  Confirmez votre<br><span style="color:#a5a0f5;">adresse e-mail.</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td align="center" style="font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;color:#a9aac4;padding-bottom:32px;">
+                  Bienvenue sur Classtra ! Cliquez sur le bouton ci-dessous pour confirmer votre adresse e-mail et finaliser votre inscription.
+                </td>
+              </tr>
+
+              <!-- Bouton -->
+              <tr>
+                <td align="center" style="padding-bottom:32px;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td align="center" bgcolor="#a5a0f5" style="background-color:#a5a0f5;border-radius:999px;">
+                        <a href="{{ .ConfirmationURL }}" target="_blank"
+                           style="display:inline-block;padding:16px 36px;font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#0d0f1e;text-decoration:none;border-radius:999px;">
+                          Confirmer mon e-mail
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Séparateur -->
+              <tr>
+                <td style="border-top:1px solid #262a4d;font-size:0;line-height:0;height:1px;">&nbsp;</td>
+              </tr>
+
+              <!-- Lien de secours -->
+              <tr>
+                <td align="center" style="font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;line-height:20px;color:#8486a6;padding-top:24px;">
+                  Le bouton ne fonctionne pas ? Copiez ce lien dans votre navigateur :<br>
+                  <a href="{{ .ConfirmationURL }}" target="_blank" style="color:#a5a0f5;word-break:break-all;">{{ .ConfirmationURL }}</a>
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+
+        <!-- Pied de page -->
+        <tr>
+          <td align="center" style="padding:24px 16px 0 16px;font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:18px;color:#6b6d8f;">
+            Vous n'avez pas créé de compte ? Vous pouvez ignorer cet e-mail en toute sécurité.<br>
+            © Classtra · L'école tourne. Les papiers, non.
+          </td>
+        </tr>
+
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
